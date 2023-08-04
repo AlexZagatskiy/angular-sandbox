@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-14-sandbox';
+
+  navLinks = [
+    { route: 'dynamic', title: 'Progressive rendering' },
+    { route: 'intersection', title: 'Intersection observer' },
+    { route: 'scroll_demo', title: 'Scroll animation' },
+  ]
 }

@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .mat-toolbar {
+    min-height: 65px;
+  }
+
+  .content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+}
+
+.main-menu {
+  margin-left: auto;
+  font-size: 1rem;
+
+  a {
+    padding: .5rem;
+    text-decoration: none;
+
+    &.is-active {
+      color: blue;
+    }
+  }
+
+}
